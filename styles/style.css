@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,500;0,800;1,300;1,500;1,600&family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav related styles */
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-header {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-letter {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-items ul li {
+    list-style: none;
+    margin-left: 20px;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us-icon {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+
+.fa-youtube {
+    color: #F61C0D;
+}
+
+/* banner related styles */
+.banner-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-paragraph {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-heading {
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner-content {
+    background-image: url("./images/Group 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-item {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 10px 0 10px;
+}
+
+.banner-btn-1 {
+    display: inline-flex;
+    padding: 15px;
+    align-items: flex-start;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 20px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.banner-btn-2 {
+    display: inline-flex;
+    padding: 15px;
+    align-items: flex-start;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* online game related styles */
+.online-game-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.online-game-header {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-funny-video {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-content {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.online-box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+}
+
+.online-img {
+    width: 300px;
+}
+
+.online-img img {
+    width: 100%;
+}
+
+.online-img-content {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* play instantly related styles */
+.play-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.play-images {
+    width: 50%;
+    position: relative;
+
+}
+
+.play-image1 {
+    border-radius: 8px;
+}
+
+.play-image1 img {
+    width: 100%;
+}
+
+.play-image2 img {
+    width: 50%;
+    position: absolute;
+    bottom: -30%;
+    left: 70%;
+    border-radius: 8px;
+}
+
+.play-content {
+    margin-left: 300px;
+}
+
+.play-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-games-online {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-paragraph {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* games category related styles */
+.games-container {
+    max-width: 1300px;
+    margin: 200px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.games-category {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.games-category:hover {
+    border-radius: 50px;
+    border: 1px solid #FF42A5;
+}
+
+.action-button {
+    border: none;
+    background-color: #FFF;
+    margin-left: 10px;
+}
+
+.action-button:hover {
+    color: #FF42A5;
+}
+
+/* footer related styles */
+footer{
+    background-color: #0B0223;
+}
+.footer-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px;
+}
+.primary-footer{
+    margin-bottom: 20px;
+}
+.footer-header {
+    color: #FFF;
+}
+
+.footer-services {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item{
+color: #FFF;
+}
+
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-icon3 button{
+    font-size: 40px;
+    color: #FFF;
+    background-color:#0B0223;
+    border: none;
+    margin: 20px;
+    /* padding: 20px; */
+}
+.footer-terms-cookies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.terms-policy{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer-right-reserved{
+    color: #FFF;
+    text-align: center;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin: 30px; */
+}

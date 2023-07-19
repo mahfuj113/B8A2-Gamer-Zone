@@ -1,0 +1,196 @@
+/* responsive for mobile device */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        margin-top: 40px;
+    }
+
+    .banner-img {
+        width: 80%;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    /* online game media query */
+    .online-game-container {
+        margin-top: 70px;
+    }
+
+    .online-game-header,
+    .online-funny-video {
+        font-size: 20px;
+    }
+
+    .online-content {
+        font-size: 10px;
+    }
+
+    .online-box-container {
+        grid-template-columns: 1fr;
+    }
+
+    .online-img {
+        width: 80%;
+        margin: 20px auto 20px;
+        text-align: center;
+    }
+
+    .online-img img {
+        width: 100%;
+    }
+
+    /* play games mobile media query */
+    .play-container {
+        flex-direction: column-reverse;
+    }
+
+    .play-images {
+        width: 65%;
+    }
+
+    .play-image1 img {
+        width: 100%;
+    }
+
+    .play-content {
+        text-align: center;
+        margin: 0;
+        padding: 30px;
+    }
+
+    /* games category media for mobile */
+    .games-category {
+        width: 140px;
+        font-size: 5px;
+        align-items: start;
+    }
+
+    .action-button {
+        border: none;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    /* footer media query */
+    .footer-container {
+        padding: 30px 0 40px;
+    }
+
+    .footer-services {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-item {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-btn {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-terms-cookies {
+        flex-direction: column;
+    }
+}
+
+
+
+
+/* responsive for tablet */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        margin-top: 40px;
+    }
+
+    .banner-img {
+        width: 80%;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    /* online game media query */
+    .online-box-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .online-img {
+        width: 80%;
+        margin: 20px auto 0px;
+    }
+
+    .online-game-container {
+        margin-top: 70px;
+    }
+
+    /* play games mobile media query */
+    .play-container {
+        flex-direction: column-reverse;
+    }
+
+    .play-images {
+        width: 65%;
+    }
+
+    .play-image1 img {
+        width: 100%;
+    }
+
+    .play-content {
+        text-align: center;
+        margin: 0;
+        padding: 30px;
+    }
+
+    /* footer media rule for tablet */
+    .footer-container {
+        padding: 30px 0 40px;
+    }
+
+    .footer-services {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-item {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-btn {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-terms-cookies {
+        flex-direction: column;
+    }
+}
