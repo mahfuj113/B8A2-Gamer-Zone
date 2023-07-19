@@ -1,5 +1,7 @@
 /* responsive for mobile device */
 @media screen and (max-width:576px) {
+
+    /* navbar media rule for mobile */
     .nav-container {
         flex-direction: column;
         width: 100%;
@@ -26,7 +28,7 @@
         width: 100%;
     }
 
-    /* online game media query */
+    /* online game media rule for mobile */
     .online-game-container {
         margin-top: 70px;
     }
@@ -54,7 +56,7 @@
         width: 100%;
     }
 
-    /* play games mobile media query */
+    /* play games media rule for mobile */
     .play-container {
         flex-direction: column-reverse;
     }
@@ -73,20 +75,20 @@
         padding: 30px;
     }
 
-    /* games category media for mobile */
+    /* games category media rule for mobile */
     .games-category {
         width: 140px;
-        font-size: 5px;
-        align-items: start;
     }
 
     .action-button {
-        border: none;
-        margin-right: 10px;
-        margin-top: 10px;
+        font-size: 10px;
     }
 
-    /* footer media query */
+    .action-button img {
+        margin-right: 5px;
+    }
+
+    /* footer media rule for mobile */
     .footer-container {
         padding: 30px 0 40px;
     }
@@ -116,6 +118,8 @@
 
 /* responsive for tablet */
 @media screen and (min-width:576px) and (max-width:992px) {
+
+    /* navbar media rule for tablet */
     .nav-container {
         flex-direction: column;
     }
@@ -136,7 +140,7 @@
         width: 100%;
     }
 
-    /* online game media query */
+    /* online game media rule for tablet */
     .online-box-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 0;
@@ -151,7 +155,7 @@
         margin-top: 70px;
     }
 
-    /* play games mobile media query */
+    /* play games media rule for tablet */
     .play-container {
         flex-direction: column-reverse;
     }
@@ -168,6 +172,11 @@
         text-align: center;
         margin: 0;
         padding: 30px;
+    }
+
+    /* game category media rule for tablet */
+    .action-button {
+        font-size: 14px;
     }
 
     /* footer media rule for tablet */

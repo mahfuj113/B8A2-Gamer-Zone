@@ -194,7 +194,6 @@ nav {
     width: 100%;
 }
 
-/*image hover start */
 .image {
     display: block;
     width: 100%;
@@ -235,7 +234,6 @@ nav {
     margin-top: 10px;
 }
 
-/* image hover end */
 .online-img-content {
     color: #534C64;
     font-size: 15px;
@@ -313,25 +311,28 @@ nav {
 
 .games-category {
     width: 230px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 20px 0;
-}
-
-.games-category:hover {
-    border-radius: 50px;
-    border: 1px solid #FF42A5;
 }
 
 .action-button {
     border: none;
-    background-color: #FFF;
-    margin-left: 10px;
+    border-radius: 50px;
+    background: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    font-size: 16px;
 }
 
-.action-button:hover {
+.action-button img {
+    margin-right: 8px;
+}
+
+.action-button:hover,
+.action-button:focus {
+    border: 2px solid #FF42A5;
     color: #FF42A5;
+    outline: none;
 }
 
 /* footer related styles */
@@ -376,7 +377,10 @@ footer {
     background-color: #0B0223;
     border: none;
     margin: 20px;
-    /* padding: 20px; */
+}
+
+.fa-facebook {
+    color: rgba(24, 119, 242, 1);
 }
 
 .footer-terms-cookies {
@@ -398,7 +402,4 @@ footer {
 .footer-right-reserved {
     color: #FFF;
     text-align: center;
-    /* padding-bottom: 20px; */
-    /* margin-bottom: 20px; */
-    /* margin: 30px; */
 }
