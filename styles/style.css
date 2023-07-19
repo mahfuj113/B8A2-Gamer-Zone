@@ -262,14 +262,14 @@ nav {
 /* games category related styles */
 .games-container {
     max-width: 1300px;
-    margin: 200px auto 0;
+    margin: 200px auto 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .games-category {
-    width: 200px;
+    width: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
