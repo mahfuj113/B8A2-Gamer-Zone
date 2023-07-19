@@ -186,13 +186,52 @@ nav {
 }
 
 .online-img {
+    position: relative; 
     width: 300px;
 }
 
 .online-img img {
     width: 100%;
 }
+/*image hover */
+.image {
+    display: block;
+    width: 100%;
+}
 
+.image:hover {
+    border: 3px solid blue;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.online-img:hover .overlay {
+    opacity: 1;
+}
+
+.play-button {
+    font-size: 40px;
+    color: white;
+}
+
+.text {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+/* image hover */
 .online-img-content {
     color: #534C64;
     font-size: 15px;
