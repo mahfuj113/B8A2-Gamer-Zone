@@ -186,14 +186,15 @@ nav {
 }
 
 .online-img {
-    position: relative; 
+    position: relative;
     width: 300px;
 }
 
 .online-img img {
     width: 100%;
 }
-/*image hover */
+
+/*image hover start */
 .image {
     display: block;
     width: 100%;
@@ -208,17 +209,19 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
 .online-img:hover .overlay {
     opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .play-button {
@@ -228,10 +231,11 @@ nav {
 
 .text {
     font-size: 18px;
-    color: white;
+    color: #FF42A5;
     margin-top: 10px;
 }
-/* image hover */
+
+/* image hover end */
 .online-img-content {
     color: #534C64;
     font-size: 15px;
@@ -331,60 +335,67 @@ nav {
 }
 
 /* footer related styles */
-footer{
+footer {
     background-color: #0B0223;
 }
+
 .footer-container {
     max-width: 900px;
     margin: auto;
     padding: 100px;
 }
-.primary-footer{
+
+.primary-footer {
     margin-bottom: 20px;
 }
+
 .footer-header {
     color: #FFF;
 }
 
 .footer-services {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-item{
-color: #FFF;
+.footer-item {
+    color: #FFF;
 }
 
-.footer-btn{
+.footer-btn {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.footer-icon3 button{
+
+.footer-icon3 button {
     font-size: 40px;
     color: #FFF;
-    background-color:#0B0223;
+    background-color: #0B0223;
     border: none;
     margin: 20px;
     /* padding: 20px; */
 }
-.footer-terms-cookies{
+
+.footer-terms-cookies {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
 }
-.terms-policy{
+
+.terms-policy {
     color: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.footer-right-reserved{
+
+.footer-right-reserved {
     color: #FFF;
     text-align: center;
     /* padding-bottom: 20px; */
